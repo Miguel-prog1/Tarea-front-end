@@ -1,0 +1,38 @@
+<!--  
+Ejercicio 11
+Formulario Básico
+Crear un formulario HTML que solicite nombre, apellido y correo electrónico.
+Agregar también un botón para enviar la información y otro para limpiar los
+campos.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>Formulario de datos</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="ingrese su apellido">
+            <br>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" name="correo" id="correo" placeholder="ingrese su correo electrónico">
+            <br>
+        </fieldset>
+        <fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+        </fieldset>
+
+
+    </form>
+</body>
+</html>
