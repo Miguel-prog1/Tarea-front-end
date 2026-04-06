@@ -1,0 +1,89 @@
+<!--
+Ejercicio 15
+Tabla Completa de Horarios
+Diseñar una tabla que represente un horario semanal de clases. Debe incluir:
+• días de la semana como encabezados,
+• franjas horarias en la primera columna,
+• al menos una celda combinada usando colspan o rowspan.
+-->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15</title>
+</head>
+
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    18:30 - 19:10
+                </td>
+                <td rowspan="6">
+                    Ing de software
+                </td>
+                <td rowspan="6">Back end</td>
+                <td rowspan="3">
+                    ing de software 
+                </td>
+                <td rowspan="6">
+                   Sistem. en la Nube
+                </td>
+                <td rowspan="3"> Back end</td>
+            </tr>
+            <tr>
+                <td>
+                    19:10 - 19:50
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    19:50 - 20:30
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    20:30 - 21:10
+
+                </td>  
+                <td rowspan="3">
+                    Sistem. en la Nube
+                </td>
+                <td rowspan="3">
+                    Front end
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    21:10 - 21:50
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    21:50 - 22:30
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
