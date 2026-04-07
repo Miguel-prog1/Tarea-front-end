@@ -1,0 +1,30 @@
+<!--
+Formulario con Validaciones HTML5
+Crear un formulario de registro que incluya:
+• nombre de usuario,
+• correo electrónico,
+• contraseña,
+• fecha de nacimiento.
+Aplicar validaciones propias de HTML5 utilizando atributos como required,
+minlength, maxlength, placeholder, min o max, según corresponda.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16 </title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>Registro de Usuario</legend>
+
+            <label for="nombre">Nombre de Usuario:</label>
+            <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="20" placeholder="Ingrese su nombre">
+        </fieldset>
+    </form>
+</body>
+</html>
