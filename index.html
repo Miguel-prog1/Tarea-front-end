@@ -24,6 +24,19 @@ minlength, maxlength, placeholder, min o max, según corresponda.
 
             <label for="nombre">Nombre de Usuario:</label>
             <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="20" placeholder="Ingrese su nombre">
+            <br>
+            <label for="contraseña"> Contraseña</label>
+            <input type="password" id="contraseña" name="contraseña" required minlength="4" maxlength="20" placeholder="Ingrese su contraseña"  >
+            <br>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder="Ingrese su correo electrónico">
+            <br>
+            <label for="fecha"> Fecha de nacimiento: </label>
+            <input type="date" id="fecha" name="fecha" min="01/01/2008" max="31/12/2070" required>
+        </fieldset>
+        <fieldset>
+            <button type="submit">Registrar</button>
+            <button type="reset">Limpiar</button>
         </fieldset>
     </form>
 </body>
